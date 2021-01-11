@@ -1,6 +1,5 @@
-$(function () {
-  $('.box1').css({
-    'background-color': '#0000FF',
-    'height': '100px'
+$(function(){
+  $('.box1').on('click', function(){
+    $(this).slideUp();
   });
 });
